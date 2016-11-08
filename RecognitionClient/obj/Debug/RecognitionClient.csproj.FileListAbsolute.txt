@@ -29,3 +29,31 @@ c:\users\olive\onedrive\documents\visual studio 2015\Projects\RecognitionClient\
 c:\users\olive\onedrive\documents\visual studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\App.baml
 c:\users\olive\onedrive\documents\visual studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\Resources\Icons.baml
 c:\users\olive\onedrive\documents\visual studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\Resources\IconsNonShared.baml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.exe.config
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.exe
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.pdb
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.exe
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.pdb
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.dll
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\System.Windows.Interactivity.dll
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\ZedGraph.dll
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\Emgu.CV.UI.xml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\Emgu.CV.UI.GL.xml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\Emgu.CV.World.pdb
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\Emgu.CV.World.xml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.pdb
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.xml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\ZedGraph.xml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\bin\Debug\zh-CN\ZedGraph.resources.dll
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csprojResolveAssemblyReference.cache
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\Resources\Icons.baml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\Resources\IconsNonShared.baml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\MainWindow.g.cs
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\App.g.cs
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_MarkupCompile.cache
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_MarkupCompile.lref
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\App.baml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\MainWindow.baml
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.g.resources
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.Properties.Resources.resources
+\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csproj.GenerateResource.Cache
