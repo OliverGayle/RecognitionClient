@@ -50,7 +50,16 @@
                         <ColumnDefinition Width="300" />
                         <ColumnDefinition Width="100" />
                     </Grid.ColumnDefinitions>
-                    <Image Grid.ColumnSpan="3" Grid.Row="0" x:Name="TrainPreview" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <Image Grid.ColumnSpan="3" Grid.Row="0" x:Name="TrainPreview" HorizontalAlignment="Center" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                <SkewTransform AngleY="0" AngleX="0"/>
+                                <RotateTransform Angle="0"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
                     <Button Grid.Row="1" Grid.Column="0" Content="Previous" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="50"></Button>
                     <Button Grid.Row="1" Grid.Column="2" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="50"></Button>
                 </Grid>
