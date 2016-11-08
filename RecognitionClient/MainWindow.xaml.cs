@@ -51,7 +51,7 @@ namespace RecognitionClient
                     
                      ExtractedFace = extractCopy.Clone(face, extractCopy.PixelFormat);
                     //currentFrame.Draw(face.rect, new Bgr(0, double.MaxValue, 0), 3);
-                    currentFrame.Draw(face, new Bgr(0, double.MaxValue, 0), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them.Draw(face, new Bgr(Color.BurlyWood), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them
+                    currentFrame.Draw(face, new Bgr(256, 256, 256), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them.Draw(face, new Bgr(Color.BurlyWood), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them
                     Image<Gray, Byte> normalizedMasterImage = new Image<Gray, Byte>(ExtractedFace);
                     TrainPreview.Source = ToBitmapSource(normalizedMasterImage);
                 }
