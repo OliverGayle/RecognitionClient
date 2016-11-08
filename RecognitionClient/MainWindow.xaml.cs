@@ -1,21 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using Emgu.CV.Structure;
 using Emgu.CV;
 using System.Windows.Threading;
 using System.Runtime.InteropServices;
+using System.Drawing;
 
 namespace RecognitionClient
 {
@@ -46,17 +36,26 @@ namespace RecognitionClient
         void timer_Tick(object sender, EventArgs e)
         {
             Image<Bgr, Byte> currentFrame = capture.QueryFrame().ToImage<Bgr, Byte>();
-
             if (currentFrame != null)
             {
                 Image<Gray, Byte> grayFrame = currentFrame.Convert<Gray, Byte>();
 
                 var detectedFaces = haarCascade.DetectMultiScale(grayFrame, 1.1, 10);
+                BitmapSource BmpInput = ToBitmapSource(grayFrame);
+                Bitmap ExtractedFace;
+
+                Bitmap extractCopy = grayFrame.ToBitmap();
 
                 foreach (var face in detectedFaces)
+                {
+                    
+                     ExtractedFace = extractCopy.Clone(face, extractCopy.PixelFormat);
                     //currentFrame.Draw(face.rect, new Bgr(0, double.MaxValue, 0), 3);
-                currentFrame.Draw(face, new Bgr(0, double.MaxValue, 0), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them.Draw(face, new Bgr(Color.BurlyWood), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them
-
+                    currentFrame.Draw(face, new Bgr(0, double.MaxValue, 0), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them.Draw(face, new Bgr(Color.BurlyWood), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them
+                    Image<Gray, Byte> normalizedMasterImage = new Image<Gray, Byte>(ExtractedFace);
+                    TrainPreview.Source = ToBitmapSource(normalizedMasterImage);
+                }
+                
                 image1.Source = ToBitmapSource(currentFrame);
             }
 

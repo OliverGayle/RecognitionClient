@@ -39,7 +39,21 @@
         <Controls:FlyoutsControl>
             <Controls:Flyout Header="Recognition Feed" Position="Right" Width="500" Theme="Dark"
                              x:Name="Feed">
-                <!-- Your custom content here -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="500" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="300" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.ColumnSpan="3" Grid.Row="0" x:Name="TrainPreview" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <Button Grid.Row="1" Grid.Column="0" Content="Previous" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="50"></Button>
+                    <Button Grid.Row="1" Grid.Column="2" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="50"></Button>
+                </Grid>
             </Controls:Flyout>
         </Controls:FlyoutsControl>
     </Controls:MetroWindow.Flyouts>
