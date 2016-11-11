@@ -69,6 +69,15 @@ namespace RecognitionClient
             ShowMinButton = false;
             Loaded -= OnLoaded;
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            App.Current.MainWindow = main;
+            
+            main.Show();
+            this.Close();
+        }
     }
     public class JSONimages
     {

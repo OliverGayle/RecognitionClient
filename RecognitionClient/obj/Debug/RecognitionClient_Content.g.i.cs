@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("app.config")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/forward_arrow.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/qe-logo-round.png")]
 
 

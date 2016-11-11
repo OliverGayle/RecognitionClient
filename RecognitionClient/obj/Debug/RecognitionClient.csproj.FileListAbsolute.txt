@@ -61,3 +61,31 @@ C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\
 C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.dll
 C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.xml
 C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\LoginScreen.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.exe.config
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.exe
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.pdb
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.exe
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\RecognitionClient.pdb
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.dll
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.dll
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\System.Windows.Interactivity.dll
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.pdb
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\MahApps.Metro.xml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.xml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csprojResolveAssemblyReference.cache
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Resources\Icons.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Resources\IconsNonShared.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\LoginScreen.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\MainWindow.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\App.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_MarkupCompile.cache
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_MarkupCompile.lref
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\App.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\LoginScreen.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\MainWindow.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.g.resources
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.Properties.Resources.resources
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csproj.GenerateResource.Cache
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_Content.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Resources\QE-Logo-Round.png
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Resources\Forward_arrow.png
