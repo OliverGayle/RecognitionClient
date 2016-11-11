@@ -72,11 +72,14 @@ namespace RecognitionClient
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            App.Current.MainWindow = main;
             
-            main.Show();
+            Loading loading = new Loading();
+            App.Current.MainWindow = loading;
+            loading.Show();
             this.Close();
+
+            
+            
         }
     }
     public class JSONimages
