@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\
 RecognitionClient
 none
 false
 DEBUG;TRACE
-\\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\App.xaml
-3-1260861683
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\App.xaml
+4430395850
 
-6-284968379
-19-26822739
-MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
-
+7-1809165144
+201432849947
+LoginScreen.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
+splashscreen.png
 False
 

@@ -57,3 +57,7 @@ c:\users\olive\onedrive\documents\visual studio 2015\Projects\RecognitionClient\
 \\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.g.resources
 \\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.Properties.Resources.resources
 \\fs02\studentdata\2015\048896\ComputerScience\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csproj.GenerateResource.Cache
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\LoginScreen.g.cs
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\LoginScreen.baml
