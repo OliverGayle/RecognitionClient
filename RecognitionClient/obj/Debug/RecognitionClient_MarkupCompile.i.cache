@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 \\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\App.xaml
-5-326160272
+61992801660
 5-744144912
-121989948894
+13-750156716
 21-2111611214
-Loading.xaml;LoginScreen.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
+Loading.xaml;LoginScreen.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;Train.xaml;
 splashscreen.png
-False
+True
 
