@@ -16,7 +16,7 @@ namespace RecognitionClient
     public partial class MainWindow
     {
         private CustomDialog _customDialog;
-        private MainWindow _loginwindow;
+        private Train _trainwindow;
         private Capture capture;
         private CascadeClassifier haarCascade;
         DispatcherTimer timer;
@@ -125,13 +125,23 @@ namespace RecognitionClient
                 NegativeButtonText = "Go away!",
                 FirstAuxiliaryButtonText = "Cancel",
             };
-            _loginwindow = new Login1();
-            _loginwindow.ButtonCancel.Click += ButtonCancelOnClick;
-            _loginwindow.ButtonLogin.Click += ButtonLoginOnClick;
-            _customDialog.Content = _loginwindow;
+            _trainwindow = new Train();
+            _trainwindow.ButtonCancel.Click += ButtonCancelOnClick;
+            _trainwindow.ButtonLogin.Click += ButtonLoginOnClick;
+            _customDialog.Content = _trainwindow;
             await this.ShowMessageAsync("This is the title", "Some message");
-            //TrainingImages[0]
+        }
+        //TrainingImages[0]
+        private void ButtonLoginOnClick(object sender, RoutedEventArgs e)
+        {
 
         }
+
+        private void ButtonCancelOnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }

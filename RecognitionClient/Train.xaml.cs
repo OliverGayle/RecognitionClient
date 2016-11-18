@@ -24,5 +24,15 @@ namespace RecognitionClient
         {
             InitializeComponent();
         }
+
+        private void ButtonLoginOnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonCancelOnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
