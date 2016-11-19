@@ -123,12 +123,11 @@ G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Resource
 \\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.csproj.GenerateResource.Cache
 \\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.exe
 \\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient.pdb
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Resources\default.gif
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Resources\Forward_arrow.png
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Resources\Loading.svg
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\Resources\QE-Logo-Round.png
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\WpfAnimatedGif.dll
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\bin\Debug\WpfAnimatedGif.xml
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\Loading.g.cs
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\RecognitionClient_Content.g.cs
-C:\Users\olive\OneDrive\Documents\Visual Studio 2015\Projects\RecognitionClient\RecognitionClient\obj\Debug\Loading.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Loading.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Train.g.cs
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Resources\default.gif
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\Resources\Loading.svg
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\WpfAnimatedGif.dll
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\WpfAnimatedGif.xml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Loading.baml
+G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Train.baml

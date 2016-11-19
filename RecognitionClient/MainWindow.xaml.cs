@@ -6,6 +6,7 @@ using Emgu.CV;
 using System.Windows.Threading;
 using System.Runtime.InteropServices;
 using System.Drawing;
+using MahApps.Metro.Controls.Dialogs;
 
 namespace RecognitionClient
 {
@@ -14,13 +15,17 @@ namespace RecognitionClient
     /// </summary>
     public partial class MainWindow
     {
+        private CustomDialog _customDialog;
+        private Train _trainwindow;
         private Capture capture;
         private CascadeClassifier haarCascade;
         DispatcherTimer timer;
+        BitmapSource[] TrainingImages = new BitmapSource[2];
 
         public MainWindow()
         {
             InitializeComponent();
+
             Loaded += OnLoaded;
         }
 
@@ -33,6 +38,7 @@ namespace RecognitionClient
             timer.Interval = new TimeSpan(0, 0, 0, 0, 1);
             timer.Start();
         }
+
         void timer_Tick(object sender, EventArgs e)
         {
             Image<Bgr, Byte> currentFrame = capture.QueryFrame().ToImage<Bgr, Byte>();
@@ -48,15 +54,27 @@ namespace RecognitionClient
 
                 foreach (var face in detectedFaces)
                 {
-                    
-                     ExtractedFace = extractCopy.Clone(face, extractCopy.PixelFormat);
+
+                    ExtractedFace = extractCopy.Clone(face, extractCopy.PixelFormat);
                     //currentFrame.Draw(face.rect, new Bgr(0, double.MaxValue, 0), 3);
                     currentFrame.Draw(face, new Bgr(256, 256, 256), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them.Draw(face, new Bgr(Color.BurlyWood), 3); //the detected face(s) is highlighted here using a box that is drawn around it/them
                     Image<Gray, Byte> normalizedMasterImage = new Image<Gray, Byte>(ExtractedFace);
-                    TrainPreview.Source = ToBitmapSource(normalizedMasterImage);
+                    BitmapSource trainingImage = ToBitmapSource(normalizedMasterImage);
+                    if (TrainingImages[0] == null)
+                    {
+                        TrainingImages[0] = trainingImage;
+                        TrainPreview.Source = TrainingImages[0];
+                    }
+                    else
+                    {
+                        TrainingImages[1] = trainingImage;
+                    }
+
                 }
+
+                    image1.Source = ToBitmapSource(currentFrame);
+              
                 
-                image1.Source = ToBitmapSource(currentFrame);
             }
 
         }
@@ -89,5 +107,41 @@ namespace RecognitionClient
             ShowMinButton = false;
             Loaded -= OnLoaded;
         }
+
+        private void onClickNext(object sender, RoutedEventArgs e)
+        {
+            TrainingImages[0] = TrainingImages[1];
+            TrainPreview.Source = TrainingImages[0];
+        }
+
+        private async void onClickTrain(object sender, RoutedEventArgs e)
+        {
+            MetroDialogOptions.ColorScheme = MetroDialogColorScheme.Accented;
+            _customDialog = new CustomDialog();
+            var mySettings = new MetroDialogSettings()
+            {
+                AffirmativeButtonText = "OK",
+                AnimateShow = true,
+                NegativeButtonText = "Go away!",
+                FirstAuxiliaryButtonText = "Cancel",
+            };
+            _trainwindow = new Train();
+            _trainwindow.ButtonCancel.Click += ButtonCancelOnClick;
+            _trainwindow.ButtonLogin.Click += ButtonLoginOnClick;
+            _customDialog.Content = _trainwindow;
+            await this.ShowMessageAsync("This is the title", "Some message");
+        }
+        //TrainingImages[0]
+        private void ButtonLoginOnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonCancelOnClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }
