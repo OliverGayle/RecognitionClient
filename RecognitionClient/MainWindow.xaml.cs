@@ -7,6 +7,7 @@ using System.Windows.Threading;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using MahApps.Metro.Controls.Dialogs;
+using System.IO;
 
 namespace RecognitionClient
 {
@@ -116,19 +117,8 @@ namespace RecognitionClient
 
         private async void onClickTrain(object sender, RoutedEventArgs e)
         {
-            MetroDialogOptions.ColorScheme = MetroDialogColorScheme.Accented;
-            _customDialog = new CustomDialog();
-            var mySettings = new MetroDialogSettings()
-            {
-                AffirmativeButtonText = "OK",
-                AnimateShow = true,
-                NegativeButtonText = "Go away!",
-                FirstAuxiliaryButtonText = "Cancel",
-            };
-            _trainwindow = new Train();
-            _trainwindow.ButtonCancel.Click += ButtonCancelOnClick;
-            _trainwindow.ButtonLogin.Click += ButtonLoginOnClick;
-            _customDialog.Content = _trainwindow;
+
+            getJPGFromImageControl(TrainingImages[0] as BitmapImage);
             await this.ShowMessageAsync("This is the title", "Some message");
         }
         //TrainingImages[0]
@@ -141,7 +131,13 @@ namespace RecognitionClient
         {
 
         }
-
-
+        public byte[] getJPGFromImageControl(BitmapImage imageC)
+        {
+            MemoryStream memStream = new MemoryStream();
+            JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+            encoder.Frames.Add(BitmapFrame.Create(imageC));
+            encoder.Save(memStream);
+            return memStream.ToArray();
+        }
     }
 }

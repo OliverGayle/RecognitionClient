@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\
 RecognitionClient
 none
 false
 DEBUG;TRACE
-G:\ComputerScience\Github\RecognitionClient\RecognitionClient\App.xaml
-61992801660
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\App.xaml
+7855743035
 5-744144912
-13-750156716
-21-479845110
-Loading.xaml;LoginScreen.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;Train.xaml;
+14-2005994449
+21-2111611214
+Loading.xaml;LoginScreen.xaml;MainMenu.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;Train.xaml;
 splashscreen.png
 True
 

@@ -73,7 +73,7 @@ namespace RecognitionClient
         private void button1_Click(object sender, RoutedEventArgs e)
         {
 
-            MainWindow MainWindow = new MainWindow();
+            MainMenu MainWindow = new MainMenu();
             App.Current.MainWindow = MainWindow;
             MainWindow.Show();
             this.Close();

@@ -131,3 +131,7 @@ G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\WpfAnima
 G:\ComputerScience\Github\RecognitionClient\RecognitionClient\bin\Debug\WpfAnimatedGif.xml
 G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Loading.baml
 G:\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Train.baml
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Train.g.cs
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\Train.baml
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\MainMenu.baml
+\\fs02\studentdata\2015\048896\ComputerScience\Github\RecognitionClient\RecognitionClient\obj\Debug\MainMenu.g.cs
