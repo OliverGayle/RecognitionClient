@@ -72,11 +72,16 @@ namespace RecognitionClient
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            App.Current.MainWindow = main;
-            
-            main.Show();
+
+            MainMenu MainWindow = new MainMenu();
+            App.Current.MainWindow = MainWindow;
+            MainWindow.Show();
             this.Close();
+
+
+
+
+
         }
     }
     public class JSONimages

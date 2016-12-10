@@ -4,13 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RecognitionClient"
+    xmlns:gif="http://wpfanimatedgif.codeplex.com"
 	    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:metro="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" xmlns:Dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro" x:Name="FormWindow" x:Class="RecognitionClient.LoginScreen"
         mc:Ignorable="d"
     WindowStyle="None"
                       IgnoreTaskbarOnMaximize="True"
+    
        Title="Queen Elizabeth Biometric System"  Height="1080" Width="1920" ShowTitleBar="False" Margin="0,-10,0,0" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
-    <Grid Background="#4C000000">
+    <Grid Background="#4C000000" x:Name="Loginapp">
         <Grid HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center">
             <Grid x:Name="MainGrid" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="0" MinWidth="450" MinHeight="500">
                 <TextBox Controls:TextBoxHelper.Watermark="Username" VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="400" MinHeight="32" FontSize="24" VerticalContentAlignment="Center" ScrollViewer.CanContentScroll="True" Margin="0,250,0,0" Background="White" Foreground="#FF6F6D71" />
